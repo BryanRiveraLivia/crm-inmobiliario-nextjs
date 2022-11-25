@@ -4,9 +4,9 @@ import MoreVertIcon from '@mui/icons-material/MoreVert';
 import NotificationsActiveIcon from '@mui/icons-material/NotificationsActive';
 import KeyboardArrowDownIcon from '@mui/icons-material/KeyboardArrowDown';
 import KeyboardArrowLeftIcon from '@mui/icons-material/KeyboardArrowLeft';
-import AsideItem from "./asideItem";
+import AsideItem from "./AsideItem";
 
-function aside() {
+function Aside() {
 
   
 
@@ -72,4 +72,4 @@ function aside() {
   )
 }
 
-export default aside
+export default Aside

@@ -7,7 +7,7 @@ import KeyboardArrowDownIcon from '@mui/icons-material/KeyboardArrowDown';
 import KeyboardArrowLeftIcon from '@mui/icons-material/KeyboardArrowLeft';
 import MenuIcon from '@mui/icons-material/Menu';
 
-function header() {
+function Header() {
 
   const [menuAside, setMenuAside] = useState(0);
   
@@ -60,4 +60,4 @@ function header() {
   )
 }
 
-export default header
+export default Header
