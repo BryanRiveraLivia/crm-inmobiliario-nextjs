@@ -37,12 +37,9 @@ function AsideItem(props) {
           </a>
               <ul className={menuEstado == "0" ? 'subMenu d-none' : 'subMenu d-block'}>
                   {
-                      
-                      menu.map((value, index) => {
-                          return (
-                              <li key={index}><a href={value.vinculo}>{value.nombre_menu}</a></li>
-                          )
-                      })
+                      menu?.map((value, index) => (
+                        <li key={index}><a href={value.vinculo}>{value.nombre_menu}</a></li>
+                      ))
                   }
               </ul>
           </li>
