@@ -172,8 +172,10 @@
     transform: rotate(180deg);
   }
   .asideMobile{
-    position: absolute;
-    left: 0%;
+    position: fixed;
+    left: 0;
+    top: 0;
+    height: 100vh;
   }
   @media(min-width:991px){
     .asideMobile{
@@ -208,7 +210,7 @@
       header, .barHeader ul{
           padding:0 15px;
       }
-      aside{
-        /*width: 70%;*/
+      .asideMobile{
+        width: 75%;
     }
   }
