@@ -1,5 +1,6 @@
 import React, {useState, useEffect, Component} from 'react'
 import KeyboardArrowDownIcon from '@mui/icons-material/KeyboardArrowDown';
+import $ from 'jquery'
 
 function AsideItem(props) {
     const menu = props.menu;
@@ -8,13 +9,9 @@ function AsideItem(props) {
   
     const activaSubMenu = (event) => {
       if(menuEstado == "0"){
-          /*const boxes = document.querySelectorAll('.subMenu');
-          boxes.forEach(box => {
-              box.classList.remove('d-block');
-              box.classList.add('d-none');
-          });*/
           setMenuEstado(1)
           setFlechaEstado(1)
+          
       }else{
           setMenuEstado(0)
           setFlechaEstado(0)
