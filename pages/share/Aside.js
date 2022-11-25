@@ -61,10 +61,10 @@ function Aside() {
             <ul className="menu">
                 <AsideItem nombre_menu="Inicio con hijos 1" hijos="si" menu={menu0}></AsideItem>
                 <AsideItem nombre_menu="Inicio con hijos 2" hijos="si" menu={menu1}></AsideItem>
-                <AsideItem nombre_menu="Inicio" hijos="no"></AsideItem>
-                <AsideItem nombre_menu="Inicio 2" hijos="no"></AsideItem>
-                <AsideItem nombre_menu="Inicio 3" hijos="no"></AsideItem>
-                <AsideItem nombre_menu="Inicio 4" hijos="no"></AsideItem>
+                <AsideItem nombre_menu="Inicio" hijos="si" menu={menu0}></AsideItem>
+                <AsideItem nombre_menu="Inicio 2" hijos="si" menu={menu1}></AsideItem>
+                <AsideItem nombre_menu="Inicio 3" hijos="si" menu={menu0}></AsideItem>
+                <AsideItem nombre_menu="Inicio 4" hijos="si" menu={menu1}></AsideItem>
                 <AsideItem nombre_menu="Inicio 5" hijos="no"></AsideItem>
             </ul>
         </div>
