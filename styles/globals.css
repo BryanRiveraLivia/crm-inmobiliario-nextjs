@@ -180,6 +180,8 @@
   @media(min-width:991px){
     .asideMobile{
         position: unset;
+        overflow-y: auto;
+        overflow-x: hidden;
     }
   }
   @media(max-width:991px){
