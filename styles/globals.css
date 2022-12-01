@@ -78,14 +78,14 @@
       color:#636d7a;
   }
   .barHeader ul li a.active{
-      border-bottom: 3px solid #3a38c7;
+      border-bottom: 3px solid black;
       color:black;
       font-weight: 700;
       text-decoration: none;
       font-family: "PoppinsSemiBold";
   }
   .barHeader ul li a:hover{
-      border-bottom: 3px solid #3a38c7;
+      border-bottom: 3px solid black;
       color:black;
       text-decoration: none;
   }
@@ -137,6 +137,19 @@
       color:white;
       text-decoration: none;
   }
+  .logoEmpresa{
+    width:64px;
+  }
+  .badgeTipoEmpresa{
+    background: #db0606;
+    color: white;
+    border-radius: 8px;
+    padding: 2px 8px;
+    font-size: 12px;
+    letter-spacing: 1px;
+    font-weight: 400;
+  }
+
   aside ul.menu li a div:last-child{
     color: #ffffffd1;
     width: 25px;
@@ -145,11 +158,11 @@
     height: 25px;
   }
   aside ul.menu li a:hover{
-      background: #0b3a4c;
+      background: #a31b1b;
       border-radius: 10px;
   }
   aside ul.menu li a:hover > div:last-child{
-    background: #0b3a4c;
+    background: #a31b1b;
   }
   aside ul.menu li ul li a:hover{
     background-color: transparent !important;

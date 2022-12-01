@@ -47,7 +47,7 @@ function Aside() {
         <div className="d-flex align-items-center justify-content-between spaceLateral mb-4">
             <div>
                 <Image
-                    src="/assets/img/logo.png"
+                    src="/assets/img/logo_optima.png"
                     alt="GFG logo served with static path of public directory"
                     width="104"
                     height="42" 
